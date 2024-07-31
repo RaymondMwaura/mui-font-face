@@ -9,20 +9,6 @@ import FuturaLight from "./fonts/Futura-Light-BT.ttf";
 import FuturaMedium from "./fonts/Futura-Medium-BT.ttf";
 import FuturaBold from "./fonts/Futura-Heavy-BT.ttf";
 
-declare module "@mui/material/styles" {
-  interface Theme {
-    status: {
-      danger: string;
-    };
-  }
-  // allow configuration using `createTheme`
-  interface ThemeOptions {
-    status?: {
-      danger?: string;
-    };
-  }
-}
-
 const fontFaces = `
   @font-face {
     font-family: 'SpicyRice';
